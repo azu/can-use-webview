@@ -1,4 +1,5 @@
 // MIT © 2017 azu
 export function canUseWebView(): boolean {
-    return !!(document.createElement('webview') as any).src;
+    const webview = document.createElement('webview') as any;
+    return typeof webview.src !== "undefined" && typeof webview.webpreferences !== "undefined";
 }
