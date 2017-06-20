@@ -11,7 +11,7 @@
     "src/"
   ],
   "name": "can-use-webview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detect if you can use electron' <webview>",
   "main": "lib/src/can-use-webview.js",
   "types": "lib/src/can-use-webview.d.ts",
