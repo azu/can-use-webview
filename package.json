@@ -1,0 +1,43 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "can-use-webview",
+  "version": "1.0.0",
+  "description": "Detect if you can use electron' <webview>",
+  "main": "lib/can-use-webview.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "watch": "tsc -p . --watch",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "electron",
+    "webview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/can-use-webview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/can-use-webview/issues"
+  },
+  "homepage": "https://github.com/azu/can-use-webview",
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.0",
+    "cross-env": "^5.0.1",
+    "espower-typescript": "^8.0.0",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4",
+    "typescript": "^2.3.4"
+  }
+}
