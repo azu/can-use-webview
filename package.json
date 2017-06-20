@@ -13,7 +13,8 @@
   "name": "can-use-webview",
   "version": "1.0.0",
   "description": "Detect if you can use electron' <webview>",
-  "main": "lib/can-use-webview.js",
+  "main": "lib/src/can-use-webview.js",
+  "types": "lib/src/can-use-webview.d.ts",
   "scripts": {
     "build": "cross-env NODE_ENV=production tsc -p .",
     "watch": "tsc -p . --watch",
